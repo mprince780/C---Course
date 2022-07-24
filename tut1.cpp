@@ -1,7 +1,7 @@
 #include<iostream>
 
 int main(){
-    std::cout<<"helo iiiiworld";
+    std::cout<<"helo world";
     return 0;
 }
 
