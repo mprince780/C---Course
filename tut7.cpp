@@ -17,10 +17,23 @@ int main()
     // cout<<" the sum is \n "<<c<<endl;
     // cout<<"the global c is "<<::c;
 
-    float d=34.4f;
-    long double e = 34.4l;
+    // float d=34.4f;
+    // long double e = 34.4l;
 
-    cout<<"the value of d id "<<d<<endl<<"the value of e is "<<e;
+    // cout<<"the value of d id "<<d<<endl<<"the value of e is "<<e<<endl<<sizeof(e);
+
+
+    // int x = 26;
+    // int y = x+4;
+    // int z = y;
+    // cout<<y<<endl<<x<<endl<<z;
+
+    int x = 26;
+    cout<<(float) x+2.5<<endl;
+    float y = x+4.5;
+    cout<<(int)y;
+    int z = y;
+    // cout<<y<<endl<<x<<endl<<z;
 
     return 0;
 }
