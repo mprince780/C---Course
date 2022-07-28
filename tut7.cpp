@@ -31,8 +31,10 @@ int main()
     int x = 26;
     cout<<(float) x+2.5<<endl;
     float y = x+4.5;
-    cout<<(int)y;
+    cout<<(int)y<<endl;
     int z = y;
+    int v = int (y);
+    cout<<x;
     // cout<<y<<endl<<x<<endl<<z;
 
     return 0;
