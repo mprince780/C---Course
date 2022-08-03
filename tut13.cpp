@@ -21,11 +21,14 @@ int main( )
     //     i=i+1;
     // }
 
-    do
-    {
-        cout<<marks[i]<<endl;
-        i++;
-    } 
-    while (i<5); 
+    // do
+    // {
+    //     cout<<marks[i]<<endl;
+    //     i++;
+    // } 
+    // while (i<5); 
+
+
+    
     return 0;
 }
